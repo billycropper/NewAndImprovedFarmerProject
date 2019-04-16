@@ -1,4 +1,4 @@
-public abstract class   Person implements IRider, INoiseMaker, IEater {
+public abstract class Person implements IRider, INoiseMaker, IEater {
 
     private String name;
     private int eyes;
@@ -51,9 +51,8 @@ public abstract class   Person implements IRider, INoiseMaker, IEater {
 
     }
 
-    public boolean mount() {
+    public void mount() {
 
-        return false;
     }
 
     public boolean makeNoise() {

@@ -1,4 +1,4 @@
-public class CropDuster extends FarmerVehicle implements IAirCraft {
+public class CropDuster extends FarmerVehicle {
 
     public CropDuster(int wheels, int windows, int door) {
         super(wheels, windows, door);
@@ -8,18 +8,6 @@ public class CropDuster extends FarmerVehicle implements IAirCraft {
     }
 
     public boolean ridable() {
-        return true;
-    }
-
-    public boolean fertilize(){
-        return true;
-    }
-
-    public boolean fly() {
-        return false;
-    }
-
-    public boolean operate(){
         return true;
     }
 }

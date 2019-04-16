@@ -1,4 +1,4 @@
-public class Farmer extends Person implements IBotanist{
+public class Farmer extends Person {
 
     public Farmer(String name, int eyes, boolean nose, boolean mouth){
         super(name, eyes, nose, mouth);
@@ -8,9 +8,8 @@ public class Farmer extends Person implements IBotanist{
 
     }
 
-    public boolean mount() {
+    public void mount() {
 
-        return true;
     }
 
     public boolean makeNoise() {
@@ -19,8 +18,5 @@ public class Farmer extends Person implements IBotanist{
 
     public void eat() {
 
-    }
-
-    public void plant() {
     }
 }
