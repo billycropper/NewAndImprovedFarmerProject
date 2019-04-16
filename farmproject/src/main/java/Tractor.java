@@ -10,13 +10,5 @@ public class Tractor extends FarmerVehicle{
         return true;
     }
 
-    public boolean harvest(){
-        return true;
-    }
-
-    public boolean operate(){
-        return true;
-    }
-
 
 }

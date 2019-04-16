@@ -11,6 +11,10 @@ public class Horse extends Animal implements IRidable {
 
     }
 
+    public boolean canRide() {
+        return true;
+    }
+
     public boolean ridable(){
         return true;
     }
